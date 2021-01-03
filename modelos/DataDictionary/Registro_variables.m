@@ -40,3 +40,10 @@ registro_correcto.Min = 0;
 registro_correcto.Max = 1;
 registro_correcto.Dimensions = 1;
 registro_correcto.DimensionsMode = 'fixed';
+
+Registro_login = mpt.Signal;
+Registro_login.DataType = 'int64';
+Registro_login.Min = 0;
+Registro_login.Max = 2;
+Registro_login.Dimensions = 1;
+Registro_login.DimensionsMode = 'fixed';
