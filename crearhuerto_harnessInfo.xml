@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HarnessInformation>
+  <ModelMetadata>
+    <P Name="ModelUUID">f8a3bfb3-c211-4b56-b93e-6b522bcad274</P>
+    <P Name="OwnerBDName">crearhuerto</P>
+  </ModelMetadata>
+  <Harness>
+    <P Name="Name">crearhuerto_Harness1</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Jose</P>
+    <P Name="CreatedOn">Sun Jan 03 20:20:30 2021</P>
+    <P Name="ModifiedBy">Jose</P>
+    <P Name="LastSaved">Sun Jan 03 20:47:34 2021</P>
+    <P Name="Owner">bd</P>
+    <P Name="OwnerType">BD_HARNESS</P>
+    <P Name="OwnerPath">.</P>
+    <P Name="Directory"/>
+    <P Name="FileName">crearhuerto_Harness1.slx</P>
+    <P Name="SavedVersion">10.2</P>
+    <P Name="HarnessUUID">f3e0265c-5d5a-42e5-9241-c3d9c72f82e0</P>
+    <P Name="HarnessConnectionsMap">0,1|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">1</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="IsCodeContext">false</P>
+    <P Name="SchedulerBlock">0</P>
+    <P Name="SourceTypeString">Test Sequence</P>
+    <P Name="SinkTypeString">Test Assessment</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="BlockSIDs">2|12|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||crearhuerto_Harness1</P>
+    <P Name="ExistingBuildFolder"/>
+    <P Name="FunctionInterfaceName"/>
+  </Harness>
+  <Harness>
+    <P Name="Name">crearhuerto_Harness2</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Jose</P>
+    <P Name="CreatedOn">Mon Jan 04 15:38:04 2021</P>
+    <P Name="ModifiedBy">Jose</P>
+    <P Name="LastSaved">Mon Jan 04 15:38:05 2021</P>
+    <P Name="Owner">bd</P>
+    <P Name="OwnerType">BD_HARNESS</P>
+    <P Name="OwnerPath">.</P>
+    <P Name="Directory"/>
+    <P Name="FileName">crearhuerto_Harness2.slx</P>
+    <P Name="SavedVersion">10.2</P>
+    <P Name="HarnessUUID">667865d8-8d33-4327-a647-c6007610d578</P>
+    <P Name="HarnessConnectionsMap">0,1,2,3|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">1</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="IsCodeContext">false</P>
+    <P Name="SchedulerBlock">0</P>
+    <P Name="SourceTypeString">Inport</P>
+    <P Name="SinkTypeString">Outport</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="BlockSIDs">2|20|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||crearhuerto_Harness2</P>
+    <P Name="ExistingBuildFolder"/>
+    <P Name="FunctionInterfaceName"/>
+  </Harness>
+  <Harness>
+    <P Name="Name">crearhuerto_Harness3</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Jose</P>
+    <P Name="CreatedOn">Mon Jan 04 15:38:32 2021</P>
+    <P Name="ModifiedBy">Jose</P>
+    <P Name="LastSaved">Mon Jan 04 15:45:52 2021</P>
+    <P Name="Owner">bd</P>
+    <P Name="OwnerType">BD_HARNESS</P>
+    <P Name="OwnerPath">.</P>
+    <P Name="Directory"/>
+    <P Name="FileName">crearhuerto_Harness3.slx</P>
+    <P Name="SavedVersion">10.2</P>
+    <P Name="HarnessUUID">44044f26-968b-4c8b-ac67-2a0d8e19af6e</P>
+    <P Name="HarnessConnectionsMap">0,1,2,3|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">1</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="IsCodeContext">false</P>
+    <P Name="SchedulerBlock">0</P>
+    <P Name="SourceTypeString">Test Sequence</P>
+    <P Name="SinkTypeString">Test Assessment</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="BlockSIDs">2|18|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||crearhuerto_Harness3</P>
+    <P Name="ExistingBuildFolder"/>
+    <P Name="FunctionInterfaceName"/>
+  </Harness>
+</HarnessInformation>
