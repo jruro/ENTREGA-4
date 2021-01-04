@@ -40,3 +40,10 @@ registro_correcto.Min = 0;
 registro_correcto.Max = 1;
 registro_correcto.Dimensions = 1;
 registro_correcto.DimensionsMode = 'fixed';
+
+Activacion_riego = mpt.Signal;
+Activacion_riego.DataType = 'boolean';
+Activacion_riego.Min = 0;
+Activacion_riego.Max = 1;
+Activacion_riego.Dimensions = 1;
+Activacion_riego.DimensionsMode = 'fixed';
