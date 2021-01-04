@@ -69,9 +69,26 @@ login_correcto.Max = 1;
 login_correcto.Dimensions = 1;
 login_correcto.DimensionsMode = 'fixed';
 
-intentos = mpt.Signal;
-intentos.DataType = 'int64';
+intentos = mpt.Parameter;
+intentos.Value = 0;
+intentos.DataType = 'uint8';
 intentos.Min = 0;
-intentos.Max = 30;
-intentos.Dimensions = 1;
-intentos.DimensionsMode = 'fixed';
+intentos.Max = 10;
+
+intentos2 = mpt.Parameter;
+intentos.Value = 0;
+intentos.DataType = 'uint8';
+intentos.Min = 0;
+intentos.Max = 10;
+
+intentos = mpt.Parameter;
+intentos.Value = 0;
+intentos.DataType = 'uint8';
+intentos.Min = 0;
+intentos.Max = 10;
+
+intentos = mpt.Parameter;
+intentos.Value = 0;
+intentos.DataType = 'uint8';
+intentos.Min = 0;
+intentos.Max = 10;
