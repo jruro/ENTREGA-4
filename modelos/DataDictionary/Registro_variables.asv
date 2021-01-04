@@ -55,23 +55,3 @@ Boton_manual.Max = 1;
 Boton_manual.Dimensions = 1;
 Boton_manual.DimensionsMode = 'fixed';
 
-Quiero_manual = mpt.Signal;
-Quiero_manual.DataType = 'boolean';
-Quiero_manual.Min = 0;
-Quiero_manual.Max = 1;
-Quiero_manual.Dimensions = 1;
-Quiero_manual.DimensionsMode = 'fixed';
-
-comprobacion_manual = mpt.Signal;
-comprobacion_manual.DataType = 'boolean';
-comprobacion_manual.Min = 0;
-comprobacion_manual.Max = 1;
-comprobacion_manual.Dimensions = 1;
-comprobacion_manual.DimensionsMode = 'fixed';
-
-Boton_automatico = mpt.Signal;
-Boton_automatico.DataType = 'boolean';
-Boton_automatico.Min = 0;
-Boton_automatico.Max = 1;
-Boton_automatico.Dimensions = 1;
-Boton_automatico.DimensionsMode = 'fixed';
