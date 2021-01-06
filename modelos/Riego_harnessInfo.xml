@@ -6,7 +6,7 @@
     <P Name="CreatedBy">sergi</P>
     <P Name="CreatedOn">Mon Jan 04 11:33:38 2021</P>
     <P Name="ModifiedBy">sergi</P>
-    <P Name="LastSaved">Mon Jan 04 11:54:47 2021</P>
+    <P Name="LastSaved">Tue Jan 05 19:24:27 2021</P>
     <P Name="Owner">bd</P>
     <P Name="OwnerType">BD_HARNESS</P>
     <P Name="OwnerPath">.</P>
@@ -36,7 +36,7 @@
     <P Name="CustomSourcePath"/>
     <P Name="CustomSinkPath"/>
     <P Name="BlockSIDs">2|10|0|0|0|0|0</P>
-    <P Name="OpenGraphs">||Riego_Harness1</P>
+    <P Name="OpenGraphs"/>
     <P Name="ExistingBuildFolder"/>
     <P Name="FunctionInterfaceName"/>
   </Harness>
