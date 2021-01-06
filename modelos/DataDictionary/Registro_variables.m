@@ -47,3 +47,45 @@ Activacion_riego.Min = 0;
 Activacion_riego.Max = 1;
 Activacion_riego.Dimensions = 1;
 Activacion_riego.DimensionsMode = 'fixed';
+
+Tsensor = mpt.Signal;
+Tsensor.DataType = 'double';
+Tsensor.Min = 0;
+Tsensor.Max = 1;
+Tsensor.Dimensions = 1;
+Tsensor.DimensionsMode = 'fixed';
+
+Hsensor = mpt.Signal;
+Hsensor.DataType = 'double';
+Hsensor.Min = 0;
+Hsensor.Max = 1;
+Hsensor.Dimensions = 1;
+Hsensor.DimensionsMode = 'fixed';
+
+Vsensor = mpt.Signal;
+Vsensor.DataType = 'double';
+Vsensor.Min = 0;
+Vsensor.Max = 1;
+Vsensor.Dimensions = 1;
+Vsensor.DimensionsMode = 'fixed';
+
+Lsensor = mpt.Signal;
+Lsensor.DataType = 'double';
+Lsensor.Min = 0;
+Lsensor.Max = 1;
+Lsensor.Dimensions = 1;
+Lsensor.DimensionsMode = 'fixed';
+
+sensorUpdated = mpt.Signal;
+sensorUpdated.DataType = 'double';
+sensorUpdated.Min = 0;
+sensorUpdated.Max = 1;
+sensorUpdated.Dimensions = 1;
+sensorUpdated.DimensionsMode = 'fixed';
+
+obtenerDatos = mpt.Signal;
+obtenerDatos.DataType = 'double';
+obtenerDatos.Min = 0;
+obtenerDatos.Max = 1;
+obtenerDatos.Dimensions = 1;
+obtenerDatos.DimensionsMode = 'fixed';
