@@ -42,9 +42,9 @@ registro_correcto.Dimensions = 1;
 registro_correcto.DimensionsMode = 'fixed';
 
 Selector = mpt.Signal;
-Selector.DataType = 'int64';
+Selector.DataType = 'double';
 Selector.Min = 0;
-Selector.Max = 2;
+Selector.Max = 3;
 Selector.Dimensions = 1;
 Selector.DimensionsMode = 'fixed';
 
@@ -84,9 +84,9 @@ mensaje_gatera.Dimensions = 1;
 mensaje_gatera.DimensionsMode = 'fixed';
 
 lluvia = mpt.Signal;
-lluvia.DataType = 'boolean';
+lluvia.DataType = 'double';
 lluvia.Min = 0;
-lluvia.Max = 1;
+lluvia.Max = 10;
 lluvia.Dimensions = 1;
 lluvia.DimensionsMode = 'fixed';
 
