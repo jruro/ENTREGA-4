@@ -70,8 +70,57 @@ login_correcto.Dimensions = 1;
 login_correcto.DimensionsMode = 'fixed';
 
 intentos = mpt.Signal;
-intentos.DataType = 'int64';
+intentos.DataType = 'double';
 intentos.Min = 0;
 intentos.Max = 30;
 intentos.Dimensions = 1;
 intentos.DimensionsMode = 'fixed';
+
+mensaje_gatera = mpt.Signal;
+mensaje_gatera.DataType = 'double';
+mensaje_gatera.Min = 0;
+mensaje_gatera.Max = 30;
+mensaje_gatera.Dimensions = 1;
+mensaje_gatera.DimensionsMode = 'fixed';
+
+lluvia = mpt.Signal;
+lluvia.DataType = 'boolean';
+lluvia.Min = 0;
+lluvia.Max = 1;
+lluvia.Dimensions = 1;
+lluvia.DimensionsMode = 'fixed';
+
+Boton_precipitaciones = mpt.Signal;
+Boton_precipitaciones.DataType = 'boolean';
+Boton_precipitaciones.Min = 0;
+Boton_precipitaciones.Max = 1;
+Boton_precipitaciones.Dimensions = 1;
+Boton_precipitaciones.DimensionsMode = 'fixed';
+
+conexion_correcta = mpt.Signal;
+conexion_correcta.DataType = 'boolean';
+conexion_correcta.Min = 0;
+conexion_correcta.Max = 1;
+conexion_correcta.Dimensions = 1;
+conexion_correcta.DimensionsMode = 'fixed';
+
+Boton_info_AEMET = mpt.Signal;
+Boton_info_AEMET.DataType = 'boolean';
+Boton_info_AEMET.Min = 0;
+Boton_info_AEMET.Max = 1;
+Boton_info_AEMET.Dimensions = 1;
+Boton_info_AEMET.DimensionsMode = 'fixed';
+
+pronostico = mpt.Signal;
+pronostico.DataType = 'boolean';
+pronostico.Min = 0;
+pronostico.Max = 1;
+pronostico.Dimensions = 1;
+pronostico.DimensionsMode = 'fixed';
+
+error = mpt.Signal;
+error.DataType = 'double';
+error.Min = 0;
+error.Max = 1;
+error.Dimensions = 1;
+error.DimensionsMode = 'fixed';

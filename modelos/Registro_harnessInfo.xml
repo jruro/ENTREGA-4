@@ -236,7 +236,7 @@
     <P Name="CustomSourcePath"/>
     <P Name="CustomSinkPath"/>
     <P Name="BlockSIDs">2|25|0|0|0|0|0</P>
-    <P Name="OpenGraphs">||Registro_Harness5</P>
+    <P Name="OpenGraphs">||||Registro_Harness5</P>
     <P Name="ExistingBuildFolder"/>
     <P Name="FunctionInterfaceName"/>
   </Harness>
