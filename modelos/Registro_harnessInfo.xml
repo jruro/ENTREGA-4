@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HarnessInformation>
-  <ModelMetadata>
-    <P Name="ModelUUID">41248b07-e5a4-4c44-8dd9-ba4986fa2fc9</P>
-    <P Name="OwnerBDName">Registro</P>
-  </ModelMetadata>
   <Harness>
     <P Name="Name">Registro_Harness1</P>
     <P Name="Description"/>
@@ -14,6 +10,7 @@
     <P Name="Owner">bd</P>
     <P Name="OwnerType">BD_HARNESS</P>
     <P Name="OwnerPath">.</P>
+    <P Name="LockMode">off</P>
     <P Name="Directory"/>
     <P Name="FileName">Registro_Harness1.slx</P>
     <P Name="SavedVersion">10.1</P>
@@ -25,6 +22,7 @@
     <P Name="RebuildModelData">false</P>
     <P Name="Graphical">false</P>
     <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="OwnerBDName">Registro</P>
     <P Name="ScheduleInitTermReset">false</P>
     <P Name="AutoShapeInputs">false</P>
     <P Name="SLDVCompatible">no</P>

@@ -41,46 +41,51 @@ registro_correcto.Max = 1;
 registro_correcto.Dimensions = 1;
 registro_correcto.DimensionsMode = 'fixed';
 
-<<<<<<< Updated upstream
-Aparece_fallo = mpt.Signal;
-Aparece_fallo.DataType = 'boolean';
-Aparece_fallo.Min = 0;
-Aparece_fallo.Max = 1;
-Aparece_fallo.Dimensions = 1;
-Aparece_fallo.DimensionsMode = 'fixed';
+Activacion_riego = mpt.Signal;
+Activacion_riego.DataType = 'boolean';
+Activacion_riego.Min = 0;
+Activacion_riego.Max = 1;
+Activacion_riego.Dimensions = 1;
+Activacion_riego.DimensionsMode = 'fixed';
 
-Boton_manual = mpt.Signal;
-Boton_manual.DataType = 'boolean';
-Boton_manual.Min = 0;
-Boton_manual.Max = 1;
-Boton_manual.Dimensions = 1;
-Boton_manual.DimensionsMode = 'fixed';
+Tsensor = mpt.Signal;
+Tsensor.DataType = 'double';
+Tsensor.Min = 0;
+Tsensor.Max = 1;
+Tsensor.Dimensions = 1;
+Tsensor.DimensionsMode = 'fixed';
 
-Quiero_manual = mpt.Signal;
-Quiero_manual.DataType = 'boolean';
-Quiero_manual.Min = 0;
-Quiero_manual.Max = 1;
-Quiero_manual.Dimensions = 1;
-Quiero_manual.DimensionsMode = 'fixed';
+Hsensor = mpt.Signal;
+Hsensor.DataType = 'double';
+Hsensor.Min = 0;
+Hsensor.Max = 1;
+Hsensor.Dimensions = 1;
+Hsensor.DimensionsMode = 'fixed';
 
-comprobacion_manual = mpt.Signal;
-comprobacion_manual.DataType = 'boolean';
-comprobacion_manual.Min = 0;
-comprobacion_manual.Max = 1;
-comprobacion_manual.Dimensions = 1;
-comprobacion_manual.DimensionsMode = 'fixed';
+Vsensor = mpt.Signal;
+Vsensor.DataType = 'double';
+Vsensor.Min = 0;
+Vsensor.Max = 1;
+Vsensor.Dimensions = 1;
+Vsensor.DimensionsMode = 'fixed';
 
-Boton_automatico = mpt.Signal;
-Boton_automatico.DataType = 'boolean';
-Boton_automatico.Min = 0;
-Boton_automatico.Max = 1;
-Boton_automatico.Dimensions = 1;
-Boton_automatico.DimensionsMode = 'fixed';
-=======
-permiso = mpt.Signal;
-permiso.DataType = '';
-permiso.Min = 1;
-permiso.Max = 3;
-permiso.Dimensions = 1;
-permiso.DimensionsMode = 'fixed';
->>>>>>> Stashed changes
+Lsensor = mpt.Signal;
+Lsensor.DataType = 'double';
+Lsensor.Min = 0;
+Lsensor.Max = 1;
+Lsensor.Dimensions = 1;
+Lsensor.DimensionsMode = 'fixed';
+
+sensorUpdated = mpt.Signal;
+sensorUpdated.DataType = 'double';
+sensorUpdated.Min = 0;
+sensorUpdated.Max = 1;
+sensorUpdated.Dimensions = 1;
+sensorUpdated.DimensionsMode = 'fixed';
+
+obtenerDatos = mpt.Signal;
+obtenerDatos.DataType = 'double';
+obtenerDatos.Min = 0;
+obtenerDatos.Max = 1;
+obtenerDatos.Dimensions = 1;
+obtenerDatos.DimensionsMode = 'fixed';
