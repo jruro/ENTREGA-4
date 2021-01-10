@@ -41,6 +41,7 @@ registro_correcto.Max = 1;
 registro_correcto.Dimensions = 1;
 registro_correcto.DimensionsMode = 'fixed';
 
+<<<<<<< Updated upstream
 Aparece_fallo = mpt.Signal;
 Aparece_fallo.DataType = 'boolean';
 Aparece_fallo.Min = 0;
@@ -75,3 +76,11 @@ Boton_automatico.Min = 0;
 Boton_automatico.Max = 1;
 Boton_automatico.Dimensions = 1;
 Boton_automatico.DimensionsMode = 'fixed';
+=======
+permiso = mpt.Signal;
+permiso.DataType = '';
+permiso.Min = 1;
+permiso.Max = 3;
+permiso.Dimensions = 1;
+permiso.DimensionsMode = 'fixed';
+>>>>>>> Stashed changes

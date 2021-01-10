@@ -48,7 +48,11 @@
     <P Name="CreatedBy">Jose</P>
     <P Name="CreatedOn">Mon Jan 04 15:54:46 2021</P>
     <P Name="ModifiedBy">Jose</P>
+<<<<<<< Updated upstream
     <P Name="LastSaved">Mon Jan 04 16:35:54 2021</P>
+=======
+    <P Name="LastSaved">Fri Jan 08 16:20:15 2021</P>
+>>>>>>> Stashed changes
     <P Name="Owner">bd</P>
     <P Name="OwnerType">BD_HARNESS</P>
     <P Name="OwnerPath">.</P>
@@ -76,7 +80,11 @@
     <P Name="CustomSourcePath"/>
     <P Name="CustomSinkPath"/>
     <P Name="BlockSIDs">2|18|0|0|0|0|0</P>
+<<<<<<< Updated upstream
     <P Name="OpenGraphs"/>
+=======
+    <P Name="OpenGraphs">||crearhuerto_Harness11</P>
+>>>>>>> Stashed changes
     <P Name="ExistingBuildFolder"/>
     <P Name="FunctionInterfaceName"/>
   </Harness>
@@ -156,4 +164,45 @@
     <P Name="ExistingBuildFolder"/>
     <P Name="FunctionInterfaceName"/>
   </Harness>
+<<<<<<< Updated upstream
+=======
+  <Harness>
+    <P Name="Name">crearhuerto_Harness4</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Jose</P>
+    <P Name="CreatedOn">Mon Jan 04 15:54:46 2021</P>
+    <P Name="ModifiedBy">Jose</P>
+    <P Name="LastSaved">Fri Jan 08 16:35:50 2021</P>
+    <P Name="Owner">bd</P>
+    <P Name="OwnerType">BD_HARNESS</P>
+    <P Name="OwnerPath">.</P>
+    <P Name="Directory"/>
+    <P Name="FileName">crearhuerto_Harness4.slx</P>
+    <P Name="SavedVersion">10.2</P>
+    <P Name="HarnessUUID">8f8196be-ac2e-404e-b5d2-a8b313ea7ee1</P>
+    <P Name="HarnessConnectionsMap">0,1,2,3|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">1</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="IsCodeContext">false</P>
+    <P Name="SchedulerBlock">0</P>
+    <P Name="SourceTypeString">Test Sequence</P>
+    <P Name="SinkTypeString">Test Assessment</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="BlockSIDs">2|18|0|0|0|0|0</P>
+    <P Name="OpenGraphs"/>
+    <P Name="ExistingBuildFolder"/>
+    <P Name="FunctionInterfaceName"/>
+  </Harness>
+>>>>>>> Stashed changes
 </HarnessInformation>
